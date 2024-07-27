@@ -1,0 +1,16 @@
+@media (max-width: 996px) {
+    .template-area {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 765px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .template-area {
+        background: linear-gradient(to bottom, #1a2e34 50%, #1cbbb4 50%);
+    }
+}
