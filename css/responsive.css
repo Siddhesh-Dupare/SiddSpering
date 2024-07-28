@@ -1,16 +1,28 @@
-@media (max-width: 996px) {
-    .template-area {
-        height: 70vh;
+@media (max-width: 992px) {
+    .linear-template {
+        height: 572px;
+        flex-direction: column;
+    }
+    .header-container > .nav {
+        display: none;
+    }
+    .nav-block > .nav-bar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+      }
+}
+
+@media (max-width: 883px) {
+    .linear-template {
+        height: 675px;
     }
 }
 
-@media (max-width: 765px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-        height: 100%;
-    }
-    .template-area {
-        background: linear-gradient(to bottom, #1a2e34 50%, #1cbbb4 50%);
+@media (max-width: 767px) {
+    .linear-template {
+        background: linear-gradient(to bottom, #1a2e35 40%, #1cbbb4 40%);
+        height: 1236px;
     }
 }

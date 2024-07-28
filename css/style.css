@@ -11,81 +11,100 @@
   --black-color: #000000;
 }
 
-.template-area {
-  background: linear-gradient(to right, #1a2e35 55%, #1cbbb4 55%);
-  height: 97vh;
+html, body {
+  overflow-x: hidden;
 }
 
-.header-section {
-  height: 70px;
+.linear-template {
   display: flex;
-  flex-direction: column;
-  justify-content: center;;
+  height: 900px;
+  background: linear-gradient(to right, #1a2e35 55%, #1cbbb4 55%);
 }
 
-.header-section > .container {
-  padding: 0 25px;
+.header {
+  width: 100%;
+  height: 70px;
 }
 
-.header-section > .container > .navigation-bar {
+.header-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.logo {
+.header-container > a {
+  text-decoration: none;
+}
+
+.logo-nav {
   display: flex;
   align-items: center;
-  text-decoration: none;
-  margin-right: 70px;
+  gap: 10px;
 }
 
-.logo > img {
+.logo-nav > img {
   width: 37px;
 }
 
-.logo > span {
+.logo-nav > span {
   font-size: 24px;
+  font-weight: bold;
   color: var(--white-color);
-  font-weight: 400;
 }
 
-.nav-bar {
+.header-container > .nav {
   display: flex;
-  flex: 1;
   justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin-left: 100px;
+  margin-right: 20px;
 }
 
-.nav-bar > .nav {
+.nav > .nav-bar {
   display: flex;
-  gap: 2rem;
+  gap: 40px;
 }
 
-.nav > li {
+.nav > .nav-bar > li {
   list-style-type: none;
 }
 
-.nav > li > a {
+.nav > .nav-bar > li > a, .nav-block > .nav-bar > li > a {
   text-decoration: none;
-  color: var(--white-color);
-  font-size: 16px;
-}
-
-.nav-user-options > span {
   font-size: 16px;
   color: var(--white-color);
 }
 
-.nav-user-options {
+.user-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-nav > span {
+  font-size: 16px;
   color: var(--white-color);
+}
+
+.user-nav > i {
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.menu-btn {
   display: flex;
   align-items: center;
-  flex-basis: 75px;
-  justify-content: space-between;
 }
 
-.bx-menu {
-  color: var(--white-color);
+.menu-btn > i {
   font-size: 32px;
-  margin-left: 10px;
+  color: var(--white-color);
+}
+
+.nav-block > .nav-bar {
+  display: none;
 }
