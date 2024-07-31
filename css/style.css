@@ -19,9 +19,8 @@ html, body {
 
 .linear-template {
   display: flex;
-  height: 100vh;
   background: linear-gradient(to right, var(--left-color) 55%, var(--right-color) 55%);
-  flex-direction: column;;
+  flex-direction: column;
 }
 
 .header {
