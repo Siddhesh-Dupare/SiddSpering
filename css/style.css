@@ -201,3 +201,73 @@ html, body {
   width: 100%;
   min-width: 300px;
 }
+
+
+
+.experiences-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.experience-container {
+  height: 50px;
+  margin-left: 76px;
+  margin-right: 76px;
+}
+
+.experience-container > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-container > .row > .img-box {
+  width: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.experience-container > .row > .img-box > img {
+  height: auto;
+  width: 100%;
+}
+
+.experience-container > .row > .content-box {
+  width: 682px;
+  margin-left: 20px;
+}
+
+.content-box > .detail-box > h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.content-box > .detail-box > p {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.content-box > .detail-box > .btn-box {
+  display: flex;
+  margin-top: 45px;
+  height: 55px;
+  gap: 10px;
+}
+
+.detail-box > .btn-box > .btn {
+  width: 165px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+}
+
+.detail-box > .btn-box > .btn1 {
+  background-color: var(--faded-red-color);
+}
+
+.detail-box > .btn-box > .btn2 {
+  background-color: var(--left-color);
+
+}

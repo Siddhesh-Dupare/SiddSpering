@@ -34,4 +34,7 @@
     .carousel-left-container > .btn-box {
         justify-content: center;
     }
+    .experience-container > .row {
+        flex-wrap: wrap;
+    }
 }
