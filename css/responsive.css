@@ -6,6 +6,10 @@
     .slider-section {
         padding: 60px;
     }
+
+    .category-section > .container {
+        margin: 0 100px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -43,17 +47,19 @@
         flex-wrap: wrap;
     }
 
-    /* .row > .column2 {
-        width: 600px;
-    } */
-
     .column2 > .detail-box > .btn-box {
         justify-content: flex-start;
+    }
+
+    .box-items > .box {
+        flex-basis: 50%;
     }
 }
 
 @media (max-width: 480px) {
-
+    .box-container > .box-items {
+        display: block;
+    }
 }
 
 @media (max-width: 360px) {
