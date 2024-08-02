@@ -1,40 +1,49 @@
-@media (max-width: 992px) {
-    .linear-template {
-        height: 572px;
-        flex-direction: column;
+@media (max-width: 1080px) {
+    .header > .nav-bar {
+        margin: 0;
     }
-    .header-container > .nav {
-        display: none;
-    }
-    .nav-block > .nav-bar {
-        display: none;
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
+
+    .slider-section {
+        padding: 60px;
     }
 }
 
-@media (max-width: 883px) {
-    .linear-template {
-        height: 675px;
+@media (max-width: 1050px) {
+    .header > .nav-bar {
+        display: none;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 720px) {
     .linear-template {
-        background: linear-gradient(to bottom, #1a2e35 50%, #1cbbb4 50%);
-        height: 100%;
+        background: linear-gradient(to bottom, var(--left-color) 45%, var(--right-color) 45%);
     }
-    .carousel-container {
+
+    .slider-section {
+        padding: 0;
+    }
+
+    .vertical-space {
+        height: 100px;
+    }
+
+    .slider-section > .container {
         flex-wrap: wrap;
     }
-    .carousel-left-container {
+
+    .slider-section > .container > .detail-box {
         text-align: center;
     }
-    .carousel-left-container > .btn-box {
+
+    .btn-box {
         justify-content: center;
     }
-    .experience-container > .row {
-        flex-wrap: wrap;
-    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 360px) {
+
 }
