@@ -60,6 +60,10 @@
     .box-container > .box-items {
         display: block;
     }
+
+    .about-section > .container {
+        margin: 0 32px;
+    }
 }
 
 @media (max-width: 360px) {
