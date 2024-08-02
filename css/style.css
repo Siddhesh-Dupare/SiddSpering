@@ -314,6 +314,7 @@
 .about-box > .img-box > img {
   height: auto;
   width: 100%;
+  max-width: 847px;
 }
 
 .about-box > .detail-box > h2 {
