@@ -38,6 +38,18 @@
     .btn-box {
         justify-content: center;
     }
+
+    .experienced-section > .container > .row {
+        flex-wrap: wrap;
+    }
+
+    /* .row > .column2 {
+        width: 600px;
+    } */
+
+    .column2 > .detail-box > .btn-box {
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 480px) {
@@ -45,5 +57,19 @@
 }
 
 @media (max-width: 360px) {
+    .linear-template {
+        background: linear-gradient(to bottom, var(--left-color)60%, var(--right-color) 60%);
+    }
 
+    .slider-section > .container > .detail-box > h1 {
+        margin: 30px 0;
+    }
+
+    .vertical-space {
+        width: 0;
+    }
+    
+    .layout-padding > .container {
+        margin: 0 20px;
+    }
 }

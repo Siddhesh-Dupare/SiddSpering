@@ -92,7 +92,6 @@
 .slider-section {
   position: relative;
   padding: 150px;
-  overflow: hidden;
 }
 
 .slider-navigation {
@@ -194,4 +193,53 @@
   height: auto;
   width: 100%;
   min-width: 300px;
+}
+
+
+
+.layout-padding {
+  padding: 90px 0;
+}
+
+.layout-padding > .container {
+  margin: 0 64px;
+}
+
+.experienced-section > .container > .row {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.row > .column1 > .img-box > img {
+  height: auto;
+  width: 100%;
+  min-width: 320px;
+}
+
+.row > .column2 {
+  width: 682px;
+}
+
+.row > .column2 > .detail-box > .heading-container > h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.row > .column2 > .detail-box > p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.column2 > .detail-box > .btn-box > .btn2 {
+  background-color: var(--left-color);
+  color: var(--white-color);
+  transition: 0.3s ease-in-out;
+}
+
+.column2 > .detail-box > .btn-box > .btn2:hover {
+  background-color: inherit;
+  border-color: var(--left-color);
+  color: var(--left-color);
 }
