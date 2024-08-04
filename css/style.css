@@ -333,3 +333,57 @@
 .about-box > .detail-box > .btn-box {
   justify-content: center;
 }
+
+
+
+
+.freelance-container > .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.freelance-container > .row > .colm1 > .heading-container > h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.work-items > .work-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 20px 0;
+  width: 600px;
+}
+
+.work-box > .work-icon {
+  background-color: var(--left-color);
+  margin-right: 50px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-box > .work-title > p {
+  color: var(--faded-red-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.work-box > .work-title > h4 {
+  font-size: 28px;
+  color: var(--black-color);
+}
+
+
+.work-box > .work-icon > img {
+  width: 40px;
+}
+
+.freelance-container > .row > .colm2 > .img-box > img{
+  width: 100%;
+  height: auto;
+}

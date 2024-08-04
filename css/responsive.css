@@ -10,11 +10,27 @@
     .category-section > .container {
         margin: 0 100px;
     }
+
+    .work-items > .work-box {
+        width: 500px;
+    }
 }
 
 @media (max-width: 1050px) {
     .header > .nav-bar {
         display: none;
+    }
+
+    .freelance-container > .row {
+        flex-wrap: wrap;
+    }
+
+    .work-items > .work-box {
+        width: 100%;
+    }
+
+    .freelance-container > .row > .colm1 {
+        width: 100%;
     }
 }
 
@@ -64,6 +80,10 @@
     .about-section > .container {
         margin: 0 32px;
     }
+
+    .freelance-section > .container {
+        margin: 0 10px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -81,5 +101,21 @@
     
     .layout-padding > .container {
         margin: 0 20px;
+    }
+
+    .freelance-section > .container {
+        margin: 0 2px;
+    }
+
+    .freelance-container > .row > .colm1 > .heading-container > h2 {
+        font-size: 24px;
+    }
+
+    .work-box > .work-title > p {
+        font-size: 17px;
+    }
+
+    .work-box > .work-title > h4 {
+        font-size: 21px;
     }
 }
