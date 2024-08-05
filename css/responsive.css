@@ -1,4 +1,7 @@
 @media (max-width: 1080px) {
+    html, body {
+        overflow-x: hidden;
+    }
     .header > .nav-bar {
         margin: 0;
     }
@@ -23,14 +26,6 @@
 
     .freelance-container > .row {
         flex-wrap: wrap;
-    }
-
-    .work-items > .work-box {
-        width: 100%;
-    }
-
-    .freelance-container > .row > .colm1 {
-        width: 100%;
     }
 }
 
@@ -70,6 +65,10 @@
     .box-items > .box {
         flex-basis: 50%;
     }
+
+    .freelance-section > .container {
+        margin: 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -79,10 +78,6 @@
 
     .about-section > .container {
         margin: 0 32px;
-    }
-
-    .freelance-section > .container {
-        margin: 0 10px;
     }
 }
 
@@ -99,23 +94,11 @@
         width: 0;
     }
     
-    .layout-padding > .container {
+    .layout-padding > .container { 
         margin: 0 20px;
-    }
+    } 
 
     .freelance-section > .container {
-        margin: 0 2px;
-    }
-
-    .freelance-container > .row > .colm1 > .heading-container > h2 {
-        font-size: 24px;
-    }
-
-    .work-box > .work-title > p {
-        font-size: 17px;
-    }
-
-    .work-box > .work-title > h4 {
-        font-size: 21px;
+        margin: 0;
     }
 }
